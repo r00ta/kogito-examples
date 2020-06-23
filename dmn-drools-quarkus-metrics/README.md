@@ -44,7 +44,7 @@ public class MyInterceptor extends MetricsInterceptor {
 
 ### Architecture
 
-Once you compile your Quarkus project, a dashboard for each available endpoint will be generated under the path `target/resources/dashboards/`. You can then inject those grafana dashboards during the deployment of the grafana instance.
+Once you compile your Quarkus project, a dashboard for each available endpoint will be generated under the path `target/generated-resources/kogito/dashboard/`. You can then inject those grafana dashboards during the deployment of the grafana instance.
 
 The use case is summarized in the following schema:
  
